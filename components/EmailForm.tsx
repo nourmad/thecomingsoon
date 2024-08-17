@@ -48,22 +48,13 @@ const EmailForm = () => {
         >
           <Image src={Mail} alt="mail" />
         </label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          required
-          placeholder="Join our waiting list..."
-          className="lg:w-[300px] py-2 px-3 rounded-md text-base pl-8 shadow-button-shadow border bg-white/50 focus-visible:outline-none focus-visible:bg-white"
-        />
       </div>
-      <button
-        disabled={isPending}
-        type="submit"
-        className="bg-gradient-to-b from-white to-[#f8eedb] text-[#482307] shadow-button-shadow font-semibold py-2 px-3 rounded-md text-base transition-all duration-200 "
+      <a
+        href="https://waitfor.xyz/whizi"
+        className="bg-gradient-to-b from-white to-[#f8eedb] text-[#482307] shadow-button-shadow font-semibold py-2 px-3 rounded-md text-base transition-all duration-200"
       >
-        Subscribe
-      </button>
+        Get an email when we launch
+      </a>
     </form>
   );
 };
